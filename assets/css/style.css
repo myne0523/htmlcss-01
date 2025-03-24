@@ -73,7 +73,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 98px);
   background: #e6f0ff;
 }
 
@@ -135,12 +135,12 @@ a {
 }
 
 
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
 
-.hero .sub-title {
+.hero-wrap .sub-title {
   font-family: Poppins;
   font-weight: 500;
   font-size: 1.8rem;
@@ -150,7 +150,7 @@ a {
 }
 
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   font-family: Poppins;
   font-weight: 700;
@@ -160,7 +160,7 @@ a {
 }
 
 
-.hero .desc {
+.hero-wrap .desc {
   margin-top: 30px;
   font-family: Poppins;
   font-weight: 400;
